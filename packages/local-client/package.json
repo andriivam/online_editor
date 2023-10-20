@@ -1,6 +1,6 @@
 {
   "name": "@jsnote-vam/local-client",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "publishConfig": {
     "access": "public"
   },
@@ -8,6 +8,7 @@
     "build"
   ],
   "devDependencies": {
+    "@babel/parser": "^7.22.16",
     "@fortawesome/fontawesome-free": "^5.15.1",
     "@monaco-editor/react": "3.7.5",
     "@testing-library/jest-dom": "^5.17.0",
@@ -15,6 +16,8 @@
     "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^27.5.2",
     "@types/jscodeshift": "0.7.2",
+    "@types/node": "^20.6.3",
+    "@types/prettier": "^2.7.1",
     "@types/react": "^18.2.21",
     "@types/react-dom": "^18.2.7",
     "@types/react-redux": "7.1.26",
@@ -23,11 +26,13 @@
     "axios": "^1.5.0",
     "bulmaswatch": "^0.8.1",
     "esbuild-wasm": "0.8.27",
+    "html-webpack-plugin": "^5.5.3",
     "immer": "^8.0.0",
     "jscodeshift": "0.11.0",
     "localforage": "^1.10.0",
     "monaco-editor": "0.43.0",
     "monaco-jsx-highlighter": "0.0.15",
+    "prettier": "^2.7.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "8.1.2",
@@ -36,12 +41,7 @@
     "redux": "4.2.1",
     "redux-thunk": "2.3.0",
     "typescript": "^4.9.5",
-    "web-vitals": "^2.1.4",
-    "@babel/parser": "^7.22.16",
-    "@types/node": "^20.6.3",
-    "@types/prettier": "^2.7.1",
-    "html-webpack-plugin": "^5.5.3",
-    "prettier": "^2.7.1"
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
